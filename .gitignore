@@ -18,6 +18,7 @@ credentials/*.json
 !credentials/earthengine_key.json.example
 .env
 .env.*
+!.env.example
 
 # Frontend directory (Explicitly excluded as requested)
 frontend/

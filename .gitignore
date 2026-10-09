@@ -1,0 +1,40 @@
+# Python Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Sensitive Credentials & Keys (DO NOT COMMIT)
+credentials/*.json
+!credentials/earthengine_key.json.example
+.env
+.env.*
+
+# Frontend directory (Explicitly excluded as requested)
+frontend/
+
+# Local databases and runtime artifacts
+data/*.db
+data/reports/*
+!data/reports/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+data/dem/*
+!data/dem/.gitkeep
+
+# IDE / System
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
